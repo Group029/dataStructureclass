@@ -27,12 +27,12 @@ public class LinkList {
 		break;
 	}
 	case 3: {
-		System.out.println("The peek charter : "+st.p());
+		System.out.println("The peek charter : "+st.peek());
 		System.out.println("----------------------------");
 		break;
 	}
 	case 4: {
-		System.out.println("Is stack full :- "+st.displayAllChar());
+		System.out.println("SHOW ALL :- "+st.displayAllChar());
 		System.out.println("----------------------------");
 		break;
 	}

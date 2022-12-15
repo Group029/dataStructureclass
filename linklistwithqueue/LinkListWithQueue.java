@@ -40,7 +40,7 @@ public class LinkListWithQueue {
 	public char peek() {
 		char d='@';
 		if(front == null) {
-			System.out.println("Empty queye");
+			System.out.println("Empty queue");
 		return d;
 		}
 		d=front.getData();
@@ -55,8 +55,18 @@ public class LinkListWithQueue {
 			return false;
 	}
 	public String displayAllChar() {
-		char d='@';
-		
-		
+		SListNodeChar iter = front;
+		StringBuilder sc = new StringBuilder();
+		String str=null;
+		if(front==null) {
+			System.out.println("Empty queue");
+			return str;
+		}
+		while(iter!=null) {
+			sc.append(" "+iter.getData());
+			iter=iter.getNext();
+		}
+		str=sc.toString();
+		return str;
 	}
 }

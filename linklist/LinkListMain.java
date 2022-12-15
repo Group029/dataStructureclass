@@ -8,7 +8,6 @@ public class LinkListMain {
 		// TODO Auto-generated method stub
 		int choice; 
 		int val;
-		SLlistNode node = new SLlistNode();
 		SLinkedList list = new SLinkedList();
 		Scanner sc = new Scanner(System.in);
 		
